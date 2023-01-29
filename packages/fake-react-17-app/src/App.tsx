@@ -1,5 +1,5 @@
-import React from 'react';
 
-export default function App() {
-  return <div>hielddlo</div>
+export default function App(): JSX.Element {
+
+  return <div> hielddlo</div >
 }

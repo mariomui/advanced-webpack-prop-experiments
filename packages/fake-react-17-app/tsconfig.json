@@ -1,18 +1,25 @@
 {
   "compilerOptions": {
-    "allowSyntheticDefaultImports": true,
-    "noImplicitAny": true,
-    "module": "es6",
-    "target": "es5",
     "allowJs": true,
-    "declarationDir": "dist/types",
+    "allowSyntheticDefaultImports": true,
     "composite": true,
     "declaration": true,
-    "emitDeclarationOnly": true,
+    "declarationDir": "dist/types",
     "declarationMap": true,
+    "emitDeclarationOnly": true,
     "isolatedModules": true,
-    "jsx": "react",
-    "moduleResolution": "nodenext"
+    "outDir": "dist/types",
+    "jsx": "preserve",
+    "module": "ES2020",
+    "rootDir": "src",
+    "lib": [
+      "ES6",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "moduleResolution": "nodenext",
+    "noImplicitAny": true,
+    "target": "ES2020"
   },
   "include": [
     "src/**/*"

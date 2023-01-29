@@ -7,5 +7,9 @@ const babelPreset = [
   },
 ];
 module.exports = {
-  presets: [babelPreset, '@babel/preset-react', '@babel/preset-env'],
+  presets: [
+    babelPreset,
+    ['@babel/preset-react', { runtime: 'automatic' }],
+    '@babel/preset-env',
+  ],
 };
