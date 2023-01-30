@@ -30,6 +30,9 @@ const browserConfig = {
     },
   },
   target: 'web',
+  experiments: {
+    outputModule: true,
+  },
   devServer: {
     open: true,
     host: 'localhost',
@@ -40,9 +43,7 @@ const browserConfig = {
       template: 'index.html',
     }),
   ],
-  experiments: {
-    outputModule: true,
-  },
+
   module: {
     rules: [
       babelModuleRuleConfig,

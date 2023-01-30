@@ -4,6 +4,9 @@
   "description": "My webpack project",
   "main": "dist/main.js",
   "typings": "dist/types",
+  "files": [
+    "dist/**/*.d.ts"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "pbuild": "tsc && pnpm webpack",
