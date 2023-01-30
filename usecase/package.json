@@ -17,7 +17,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "addfunctions": "workspace:addfunctions"
+    "addfunctions": "workspace:*"
   },
   "devDependencies": {
     "@babel/core": "^7.20.12",

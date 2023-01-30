@@ -41,6 +41,7 @@ importers:
       '@types/react': ^17.0.2
       '@types/react-dom': ^17.0.2
       '@webpack-cli/generators': ^3.0.1
+      addfunctions: workspace:^1.0.0
       babel-loader: ^9.1.2
       css-loader: ^6.7.3
       html-webpack-plugin: ^5.5.0
@@ -57,6 +58,7 @@ importers:
       webpack-cli: ^5.0.1
       webpack-dev-server: ^4.11.1
     dependencies:
+      addfunctions: link:../addfunctions
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
     devDependencies:
@@ -2008,7 +2010,7 @@ packages:
       webpack-cli: 5.x.x
     dependencies:
       webpack: 5.75.0_webpack-cli@5.0.1
-      webpack-cli: 5.0.1_uaydpeuxkjjcxdbyfgk36cjdxi
+      webpack-cli: 5.0.1_2sosoctzuel4ixsflqwynycpla
     dev: true
 
   /@webpack-cli/generators/3.0.1_o54kbw76nqg7wi2tnrhi4jkl3m:
@@ -2041,7 +2043,7 @@ packages:
       webpack-cli: 5.x.x
     dependencies:
       webpack: 5.75.0_webpack-cli@5.0.1
-      webpack-cli: 5.0.1_uaydpeuxkjjcxdbyfgk36cjdxi
+      webpack-cli: 5.0.1_2sosoctzuel4ixsflqwynycpla
     dev: true
 
   /@webpack-cli/serve/2.0.1_ewykyfxtgmraekx43xa23ld4wa:
@@ -2056,7 +2058,7 @@ packages:
         optional: true
     dependencies:
       webpack: 5.75.0_webpack-cli@5.0.1
-      webpack-cli: 5.0.1_uaydpeuxkjjcxdbyfgk36cjdxi
+      webpack-cli: 5.0.1_2sosoctzuel4ixsflqwynycpla
       webpack-dev-server: 4.11.1_rjsyjcrmk25kqsjzwkvj3a2evq
     dev: true
 
@@ -6147,7 +6149,7 @@ packages:
       sockjs: 0.3.24
       spdy: 4.0.2
       webpack: 5.75.0_webpack-cli@5.0.1
-      webpack-cli: 5.0.1_uaydpeuxkjjcxdbyfgk36cjdxi
+      webpack-cli: 5.0.1_2sosoctzuel4ixsflqwynycpla
       webpack-dev-middleware: 5.3.3_webpack@5.75.0
       ws: 8.12.0
     transitivePeerDependencies:
@@ -6203,7 +6205,7 @@ packages:
       tapable: 2.2.1
       terser-webpack-plugin: 5.3.6_webpack@5.75.0
       watchpack: 2.4.0
-      webpack-cli: 5.0.1_uaydpeuxkjjcxdbyfgk36cjdxi
+      webpack-cli: 5.0.1_2sosoctzuel4ixsflqwynycpla
       webpack-sources: 3.2.3
     transitivePeerDependencies:
       - '@swc/core'
