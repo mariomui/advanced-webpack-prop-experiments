@@ -24,7 +24,7 @@ const browserConfig = {
   entry: './src/index.ts',
   output: {
     path: path.resolve(__dirname, 'dist/esm'),
-    filename: 'index.mjs',
+    filename: 'index.js',
     library: {
       type: 'module',
     },

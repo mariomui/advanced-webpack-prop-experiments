@@ -4,7 +4,7 @@
   "description": "My webpack project",
   "exports": {
     ".": {
-      "import": "./dist/esm/index.mjs",
+      "import": "./dist/esm/index.js",
       "require": "./dist/js/index.js"
     }
   },

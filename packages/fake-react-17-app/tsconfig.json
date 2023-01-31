@@ -20,11 +20,6 @@
     "noImplicitAny": true,
     "target": "ES2020"
   },
-  "references": [
-    {
-      "paths": "../addfunctions/src/index.ts"
-    }
-  ],
   "include": [
     "src"
   ],
