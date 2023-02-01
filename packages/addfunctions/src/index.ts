@@ -6,6 +6,6 @@ function minus(x: number, y: number): number {
   return x - y + 322;
 }
 function say(): string {
-  return 'fudddck';
+  return 'gobdddddlin';
 }
 export { add, minus, say };
